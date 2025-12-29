@@ -410,6 +410,19 @@ body {
     margin: 0;
 }
 
+.achievement-text .inline-link {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all var(--transition-base);
+    border-bottom: 1px solid transparent;
+}
+
+.achievement-text .inline-link:hover {
+    color: var(--color-text-primary);
+    border-bottom-color: var(--color-accent);
+}
+
 /* ===== Invited Talks Section ===== */
 .talks-list {
     display: flex;
